@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindept 1 -type d | WC -1
+ls -lR | grep^d | WC -1
